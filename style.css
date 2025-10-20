@@ -35,3 +35,8 @@ body {
     display: table;
     clear: both;
 }
+.logo img{
+    display: flex;
+    align-items: center;
+    height: 50 px;
+}

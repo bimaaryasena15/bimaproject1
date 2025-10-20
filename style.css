@@ -4,4 +4,34 @@ body {
     background-color: rgb (236, 232, 232);
     color: rgb (209, 224, 214);
 }
+.navbar {
+    background-color: rgb (241, 147, 6);
+    color: aliceblue;
+    padding: 1 rem 0;
+}
 
+.navbar .nav-links {
+    list-style: none;
+    float: right;
+}
+
+.navbar .nav-links li {
+    display: inline;
+    margin-left: 20 px;
+}
+
+.navbar .nav-links a {
+    color: rgb (0, 0, 0);
+    text-decoration: none;
+    transition: color 0.3 s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: rgb (255, 255, 255);
+}
+
+.navbar::after {
+    content: "";
+    display: table;
+    clear: both;
+}
